@@ -2,25 +2,25 @@ class Shpack < Formula
   desc "Shell Script Bundler - package multiple scripts into a single executable"
   homepage "https://github.com/luongnguyen1805/shpack"
   license "None"
-  version "v1.0.5"
+  version "v1.0.6"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://luongnguyen1805.github.io/shpack/v1.0.5/shpack-darwin-amd64.tar.gz", :using => :nounzip
-      sha256 "1d8f30eccfec68098f26e6b168dbec754f0f7028d99d30a7efd2e5a6d77d9f8b"
+      url "https://luongnguyen1805.github.io/shpack/v1.0.6/shpack-darwin-amd64.tar.gz", :using => :nounzip
+      sha256 "f50de63d9a2b0904a110a4471b4a18a0fbf9a3e6aa87494fe15d056cba589518"
     else
-      url "https://luongnguyen1805.github.io/shpack/v1.0.5/shpack-darwin-arm64.tar.gz", :using => :nounzip
-      sha256 "300c91891616ceac779d91ba327c4c59f0160d96f94d98d4257ae04f1be5834c"
+      url "https://luongnguyen1805.github.io/shpack/v1.0.6/shpack-darwin-arm64.tar.gz", :using => :nounzip
+      sha256 "8ec03e69f032b04d025e56ada30094d3a7d13ccad20068f750012fbefed4ef43"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://luongnguyen1805.github.io/shpack/v1.0.5/shpack-linux-amd64.tar.gz", :using => :nounzip
-      sha256 "11e97acda06f380fbe5603f80ade92fa825a6c27c4c6f637f2dd7cd37f95ebb8"
+      url "https://luongnguyen1805.github.io/shpack/v1.0.6/shpack-linux-amd64.tar.gz", :using => :nounzip
+      sha256 "ba3eb0118e06e4acbc85136f1ea9390b028753bb6c60d2529b7f8483093f4921"
     else
-      url "https://luongnguyen1805.github.io/shpack/v1.0.5/shpack-linux-arm64.tar.gz", :using => :nounzip
-      sha256 "180d293c5b503efc86d95ffb2ac4d816048a594e7bc17608a95f148b15424914"
+      url "https://luongnguyen1805.github.io/shpack/v1.0.6/shpack-linux-arm64.tar.gz", :using => :nounzip
+      sha256 "57c8ff2dca7359a7f9594ffdaf78e0b4066e5f02782ebeffd68c9891125855b6"
     end
   end
 
